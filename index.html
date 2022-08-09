@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+
+<body>
+
+  <header class="heading">
+    <h1>Simple, traffic-based pricing</h1>
+    <p>Sign-up for our 30-day trial.<span> No credit card required.</span></p>
+  </header>
+
+  <main class="card">
+
+    <div class="slider-section">
+      <div class="slider-options">
+        <p class="page-views"><span class="views">10K</span> Pageviews</p>
+        <p class="per-month"><span class="amount"></span>/ month</p>
+      </div>
+      <div class="slider-bar">
+        <input type="range" min="0" max="5" value="1" step="1" class="slider" id="myRange">
+      </div>
+      <div class="billing-options">
+        <p>Monthly Billing</p>
+        <label class="toggle">
+          <input class="toggle-checkbox" type="checkbox">
+          <div class="toggle-switch"></div>
+        </label>
+        <p class="yearly">Yearly Billing <span class="discount"><span class="minus-span">-</span>25%<span class="discount-span"> discount</span></span></p>
+      </div>
+    </div>
+
+    <div class="offer-start">
+
+      <ul class="list">
+        <li class="list-item">Unlimited websites</li>
+        <li class="list-item">100% data ownership</li>
+        <li class="list-item">Email reports</li>
+      </ul>
+
+      <button class="start-btn" type="submit">Start my trial</button>
+
+    </div>
+
+  </main>
+
+  <footer class="attribution">
+    Coded by <a href="https://www.frontendmentor.io/profile/macdeesh" target="_blank">Macdeesh</a>.
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
