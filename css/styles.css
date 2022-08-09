@@ -101,6 +101,7 @@ h1 {
 
 .slider {
   -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
   width: 100%; 
   height: 15px;
   background: linear-gradient(90deg, var(--Soft-Cyan) 20%, var(--Light-Grayish-Blue-bar)20%);
@@ -110,8 +111,8 @@ h1 {
 }
 
 .slider::-webkit-slider-thumb {
-  appearance: none; /* Override default CSS styles */
-  width: 40px;
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
   height: 40px;
   border-radius: 60px;
   border: 0;
